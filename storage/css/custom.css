@@ -1,0 +1,100 @@
+/* Add here all your CSS customizations */
+.equal > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.loading-overlay {
+    background-image: url(../imgs/logo-matematica-azul.png), url(../imgs/logos.png);
+    background-repeat: no-repeat;
+    background-position: calc(50px) calc(50px), calc(100% - 50px) calc(100% - 50px);
+    background-size: 211px 80px, 285px 40px;
+}
+
+.bounce-loader .bounce1, .bounce-loader .bounce2, .bounce-loader .bounce3 {
+    background-color: #00aeef;
+}
+
+.butao-download:hover {
+    background: #e9e9e9
+}
+
+.page-top {
+    position: relative;
+    padding: 340px 0 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page-top .sombra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+}
+
+.page-top h1 {
+    color: #ffffff;
+}
+
+.page-top h3 {
+    color: #00aeef;
+    font-family: "blogger_sanslight", sans-serif;
+    margin-top: 20px;
+}
+
+/* This adds padding from top and bottom */
+.custom-popup-class .mfp-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* This adds max-width to popup content */
+.custom-popup-class .mfp-content {
+    width: 100%;
+    max-width: 700px;
+}
+
+/* This makes "#popup-apresentacao" scale down proportionally */
+#popup-apresentacao {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    /* This is scale ratio */
+    padding-top: 56.25%;
+}
+/* This shifts close button outside of the container */
+#popup-apresentacao .mfp-close {
+    top: -44px;
+    color: #FFF;
+    text-align: right;
+    right: 1px;
+}
+/* This is an element itself */
+.some-element {
+    background: #EBE8E8;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+}
+
+.partilha {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+}
+    
+#share-buttons img {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
