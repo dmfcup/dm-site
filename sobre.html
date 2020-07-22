@@ -133,7 +133,7 @@
 						</div>
 					</div>
 				</section>
-				<div class="container-fluid">
+				<div id "visualizar" class="container-fluid">
 					<div class="row">
 						<div class="col-md-6 p-0">
 							<div class="parallax h-100" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'minHeight': 371}" data-image-src="storage/imgs/interior-fcup.jpg"></div>
@@ -355,10 +355,10 @@
 		});
 	</script>
 	
-    <script>
-        document.getElementById("visualizar").
-            window.scrollBy(0, 100);
-    </script>
+	<script>
+		document.getElementById("visualizar").scrollIntoView();
+		window.scrollBy(0, 10);
+	</script>
 	
 </body>
 </html>
